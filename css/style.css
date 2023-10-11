@@ -98,6 +98,22 @@ body{
     background: none;
     padding: .5rem;
     display: block;
+    border: none;
+    outline: none;
+}
+
+.btn-bottom>button>i.ico{
+    font-size: 1.5rem;
+    padding: 0.25em;
+}
+
+.btn-bottom:hover{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0.5rem;
+}
+
+.c-green{
+    color: var(--green);
 }
 
 .end-meeting button{
