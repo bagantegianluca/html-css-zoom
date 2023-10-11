@@ -5,6 +5,8 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
 }
 
 :root{
@@ -20,3 +22,29 @@ body{
     background: var(--black);
 }
 /* #endregion common */
+
+/* #region utility */
+.d-flex{
+    display: flex;
+}
+
+.just-cont-end{
+    justify-content: flex-end;
+}
+/* #endregion utility */
+
+/* #region body */
+#top-command-bar{
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+}
+
+.btn-top{
+    border: none;
+    border-radius: .25rem;
+    background: var(--gray);
+    padding: .25rem;
+    margin-left: .5rem;
+}
+/* #endregion body */
