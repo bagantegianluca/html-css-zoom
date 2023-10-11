@@ -1,0 +1,22 @@
+/* #region common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --black: black;
+    --dark-gray: #222222;
+    --gray: #4a4a4a;
+    --green: #4bc800;
+    --red: #f52838;
+    --white: white;
+}
+
+body{
+    background: var(--black);
+}
+/* #endregion common */
