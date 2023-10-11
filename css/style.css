@@ -20,6 +20,7 @@
 
 body{
     background: var(--black);
+    height: 100vh;
 }
 /* #endregion common */
 
@@ -28,12 +29,22 @@ body{
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 .just-cont-end{
     justify-content: flex-end;
+}
+
+.just-cont-btw{
+    justify-content: space-between;
 }
 /* #endregion utility */
 
 /* #region body */
+
+/* #region top-command-bar */
 #top-command-bar{
     padding: 0.5rem;
     position: fixed;
@@ -47,4 +58,52 @@ body{
     padding: .25rem;
     margin-left: .5rem;
 }
+/* #endregion top-command-bar */
+
+/* #region main */
+#main{
+    padding: 5rem 6rem;
+}
+
+.container{
+    gap: .5rem;
+}
+
+.user-card{
+    position: relative;
+}
+
+.user-card>img{
+    display: block;
+}
+
+.user-mic{
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: .25rem;
+}
+/* #endregion main */
+
+/* #region bottom-command-bar */
+#bottom-command-bar{
+    background: var(--dark-gray);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn-bottom>button{
+    background: none;
+    padding: .5rem;
+    display: block;
+}
+
+.end-meeting button{
+    color: var(--red);
+    background: var(--gray);
+}
+/* #endregion bottom-command-bar */
+
 /* #endregion body */
